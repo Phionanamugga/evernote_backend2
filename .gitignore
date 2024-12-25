@@ -1,0 +1,66 @@
+# Python Bytecode
+*.py[cod]
+__pycache__/
+*.pyo
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Django Files
+*.log
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+static/
+
+# Environment Variables
+.env
+
+# Migrations (Optional: Track only if they are necessary for team collaboration)
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Node.js (if using for frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE and Editor Configurations
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Testing and Coverage
+*.cover
+.coverage
+htmlcov/
+*.egg-info/
+
+# Compiled UI Files
+dist/
+build/
+*.lock
+*.map
+
+# Backup Files
+*.bak
+*.backup
+*.swp
+*.tmp
+~$*
+*.old
+
+# Project-specific Exclusions
+# Add any specific file paths that are unique to your project below:
+# Example: 
+# secrets.json
+
